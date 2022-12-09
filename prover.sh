@@ -2,7 +2,7 @@
 clear
 echo "==================================================================="
 echo -e "\e[92m"
-echo  "   _______    __       ";
+echo  "   _______    __        ";
 echo  "  |  _____|  |  |       ";
 echo  "  | |_____   |  |       ";
 echo  "  |  _____|  |  |       ";
@@ -11,7 +11,7 @@ echo  "  |_______|  |________| ";
 echo -e "\e[0m"
 echo "===================================================================" 
 
-echo -e '\e[36mGarapan :\e[39m' Aleo Prover Testnet (Join POOL)
+echo -e '\e[36mGarapan :\e[39m' Aleo Prover Testnet -Join POOL-
 echo -e '\e[36mAuthor :\e[39m' hallosayael
 
 sleep 2
