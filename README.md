@@ -28,26 +28,35 @@ Berikut adalah persyaratan **minimum** untuk menjalankan node Aleo (SOLO MODE):
 wget -O prover.sh https://raw.githubusercontent.com/hallosayael/Aleo-Testnet3-Join-Pool/main/prover.sh && chmod +x prover.sh && ./prover.sh
 ```
 
-Biarkan Instalisasi Selesai Lama Kudu Sabar
+Biarkan Instalisasi Selesai, Agak Lama
 
-# Run Prover
-
-```
-cd snarkOS
-screen -R prover
-```
+# Pool Haruka
 
 ```
-./run-prover.sh
+git clone https://github.com/HarukaMa/aleo-prover -b testnet3-new
+cd aleo-prover
 ```
-- Masukan Private Key Yang Sudah Kalian Backup Sebelumnya dan Diamkan Hingga Selesai. 
+```
+cargo build --release
+```
+```
+screen -R aleopool
+```
+
+# Jalankan Mode Pool
+
+```
+target/release/aleo-prover -a aleo1your_address_here -p pool.hamp.app:4444
+```
+- Ganti 'aleo1your_address_here' dengan wallet address aleo kalian yang didapat ketika selesai Install diatas tadi
 - `ctrl A D` untuk Menyimpan Screen Agar Jalan di Background Pc Kalian
-- Jika anda Ingin Kembali ke Screen Yang Sedang Jalan, Gunakan Perintah `screen -Rd prover`
+- Jika anda Ingin Kembali ke Screen Yang Sedang Jalan, Gunakan Perintah `screen -r aleopool`
+- Untuk cek rewardnya open : https://hamp.app/ (copy/paste address kalian)
 
-## Uninstal (Gunakan Jika Mau Menghapus Data Node)
+## Thanks to
 
 ```
-rustup self uninstall
-rm -rf prover.sh
-rm -rf snarkOS
+Panutan BangPateng
+Haruka Pool
+Warga DC Aleo
 ```
