@@ -25,7 +25,7 @@ Berikut adalah persyaratan **minimum** untuk menjalankan node Aleo (SOLO MODE):
 # Instal Otomatis
 
 ```
-wget -O prover.sh https://raw.githubusercontent.com/bangpateng/Aleo-Prover/main/prover.sh && chmod +x prover.sh && ./prover.sh
+wget -O prover.sh https://raw.githubusercontent.com/hallosayael/Aleo-Testnet3-Join-Pool/main/prover.sh && chmod +x prover.sh && ./prover.sh
 ```
 
 Biarkan Instalisasi Selesai Lama Kudu Sabar
