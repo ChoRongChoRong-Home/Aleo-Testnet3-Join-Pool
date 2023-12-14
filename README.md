@@ -56,7 +56,7 @@ target/release/aleo-prover -a aleo1your_address_here -p pool.hamp.app:4444
 ## Thanks to
 
 ```
-Panutan BangPateng
+BangPateng
 Haruka Pool
 Warga DC Aleo
 ```
