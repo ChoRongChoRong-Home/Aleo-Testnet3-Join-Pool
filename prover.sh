@@ -16,6 +16,9 @@ echo -e '\e[36mAuthor :\e[39m' hallosayael
 
 sleep 2
 
+# 우분투에 설치되어 있는 rustc 를 삭제하고 
+sudo apt-get remove rustc
+
 echo -e "\e[1m\e[32m1. Updating packages... \e[0m" && sleep 1
 # update
 cd $HOME
